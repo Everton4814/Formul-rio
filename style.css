@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background-color: wheat;
+
+}
+.texto{
+    color: aliceblue;
+    background-color: #315686;
+    border: 10px solid #2a4a74;
+    border-radius: 15%;
+    height: 130px;
+}
+div{
+    padding: 10px;
+}
