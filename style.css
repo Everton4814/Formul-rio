@@ -1,15 +1,78 @@
-body{
+body {
     text-align: center;
-    background-color: wheat;
-
-}
-.texto{
-    color: aliceblue;
     background-color: #315686;
-    border: 10px solid #2a4a74;
-    border-radius: 15%;
-    height: 130px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-div{
+.titulo {
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+    height: 100%;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+form {
+    background: white;
+    border-radius: 20px;
+    width: 600px;
+    margin: 25px auto;
     padding: 10px;
+}
+div {
+    text-align: left;
+    padding: 10px;
+    
+}
+label {
+    font-weight: bold;
+    color: #315686;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    color: #fff;
+    font-weight: bold;
+    background: #315686;
+}
+button:hover {
+    transition: 0.3s;
+    background: #213f66;
+    cursor: pointer;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    color: #315686;
+}
+.tooltip-text {
+    visibility: hidden;
+    width: 250px;
+    background-color: #315686;
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    left: 0;
+}
+.tooltip:hover .tooltip-text{
+    visibility: visible;
 }
